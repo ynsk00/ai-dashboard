@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Gemini",
+    "company": "Google DeepMind",
+    "flagshipModel": "Gemini 3.1 Pro (Preview)",
+    "fastModel": "Gemini 3 Flash",
+    "contextWindow": "1M tokens",
+    "reasoningMode": "Deep Think",
+    "lastUpdated": "2026-02-26",
+    "features": [
+      {
+        "category": "テキスト・推論",
+        "items": [
+          { "name": "テキスト生成", "status": "yes", "detail": "Gemini 3.1 Pro" },
+          { "name": "推論モード", "status": "yes", "detail": "Deep Think" },
+          { "name": "長文コンテキスト", "status": "yes", "detail": "1Mトークン" }
+        ]
+      },
+      {
+        "category": "マルチモーダル",
+        "items": [
+          { "name": "画像生成", "status": "yes", "detail": "Imagen 4", "isNew": true },
+          { "name": "動画生成", "status": "yes", "detail": "Veo 3.1", "isNew": true },
+          { "name": "音声会話", "status": "yes", "detail": "Gemini Live" },
+          { "name": "画像認識", "status": "yes", "detail": "ネイティブ対応" }
+        ]
+      },
+      {
+        "category": "コーディング",
+        "items": [
+          { "name": "コード生成", "status": "yes", "detail": "Gemini Code Assist" },
+          { "name": "コーディングエージェント", "status": "yes", "detail": "Jules / CLI", "isNew": true }
+        ]
+      },
+      {
+        "category": "ファイル生成",
+        "items": [
+          { "name": "スライド生成", "status": "yes", "detail": "Canvas→Slides", "isNew": true },
+          { "name": "ドキュメント生成", "status": "yes", "detail": "Google Docs連携" },
+          { "name": "スプレッドシート", "status": "yes", "detail": "Google Sheets連携" }
+        ]
+      },
+      {
+        "category": "外部連携",
+        "items": [
+          { "name": "ノートブック", "status": "yes", "detail": "NotebookLM" },
+          { "name": "映像制作", "status": "yes", "detail": "Flow", "isNew": true },
+          { "name": "教育支援", "status": "yes", "detail": "Guided Learning", "isNew": true }
+        ]
+      },
+      {
+        "category": "ユニーク機能",
+        "items": [
+          { "name": "Google検索連携", "status": "yes", "detail": "リアルタイム検索" },
+          { "name": "Workspace統合", "status": "yes", "detail": "Gmail/Calendar/Drive" },
+          { "name": "NotebookLM", "status": "yes", "detail": "AI研究ノート" }
+        ]
+      }
+    ],
+    "recentUpdates": [
+      {
+        "title": "Gemini 3.1 Pro プレビュー公開",
+        "description": "次世代フラッグシップモデルのプレビュー版が公開。Deep Thinkモードによる高度な推論能力と1Mトークンのコンテキストウィンドウを搭載。",
+        "date": "2026-02-15"
+      },
+      {
+        "title": "Imagen 4 & Veo 3.1 リリース",
+        "description": "画像生成AIのImagen 4と動画生成AIのVeo 3.1が正式リリース。より高品質な生成結果とリアルな表現が可能に。",
+        "date": "2026-02-10"
+      },
+      {
+        "title": "Jules コーディングエージェント",
+        "description": "自律型コーディングエージェントJulesが登場。CLIベースでの開発ワークフローにも対応し、複雑なタスクを自動実行。",
+        "date": "2026-01-20"
+      }
+    ],
+    "pricing": [
+      {
+        "tierName": "無料",
+        "price": "¥0",
+        "features": ["Gemini 3 Flash利用可能", "基本的な画像生成", "Limited API呼び出し"]
+      },
+      {
+        "tierName": "AI Pro",
+        "price": "$19.99/月",
+        "features": ["Gemini 3.1 Pro アクセス", "Imagen 4フル機能", "Veo 3.1動画生成", "Deep Think推論", "NotebookLM Pro"]
+      },
+      {
+        "tierName": "AI Ultra",
+        "price": "$249.99/月",
+        "features": ["全モデル無制限アクセス", "最大優先処理", "専用コンピュートリソース", "エンタープライズサポート"]
+      }
+    ]
+  },
+  {
+    "name": "Claude",
+    "company": "Anthropic",
+    "flagshipModel": "Opus 4.6",
+    "fastModel": "Sonnet 4.6",
+    "contextWindow": "Infinite Chats",
+    "reasoningMode": "Extended Thinking",
+    "lastUpdated": "2026-02-26",
+    "features": [
+      {
+        "category": "テキスト・推論",
+        "items": [
+          { "name": "テキスト生成", "status": "yes", "detail": "Opus 4.6 / Sonnet 4.6" },
+          { "name": "推論モード", "status": "yes", "detail": "Extended Thinking" },
+          { "name": "長文コンテキスト", "status": "yes", "detail": "Infinite Chats" }
+        ]
+      },
+      {
+        "category": "マルチモーダル",
+        "items": [
+          { "name": "画像生成", "status": "no" },
+          { "name": "動画生成", "status": "no" },
+          { "name": "音声会話", "status": "partial", "detail": "API経由" },
+          { "name": "画像認識", "status": "yes", "detail": "Vision対応" }
+        ]
+      },
+      {
+        "category": "コーディング",
+        "items": [
+          { "name": "コード生成", "status": "yes", "detail": "Claude Code" },
+          { "name": "コーディングエージェント", "status": "yes", "detail": "Claude Code / Cowork", "isNew": true },
+          { "name": "コードセキュリティ", "status": "yes", "detail": "Code Security", "isNew": true }
+        ]
+      },
+      {
+        "category": "ファイル生成",
+        "items": [
+          { "name": "スライド生成", "status": "yes", "detail": "PPTX生成", "isNew": true },
+          { "name": "ドキュメント生成", "status": "yes", "detail": "DOCX生成", "isNew": true },
+          { "name": "スプレッドシート", "status": "yes", "detail": "XLSX生成", "isNew": true }
+        ]
+      },
+      {
+        "category": "外部連携",
+        "items": [
+          { "name": "MCP連携", "status": "yes", "detail": "Gmail/Calendar/Drive/DocuSign/FactSet", "isNew": true },
+          { "name": "プラグインマーケット", "status": "yes", "detail": "エンタープライズ向け", "isNew": true },
+          { "name": "デスクトップエージェント", "status": "yes", "detail": "Claude Cowork", "isNew": true }
+        ]
+      },
+      {
+        "category": "ユニーク機能",
+        "items": [
+          { "name": "Claude Code", "status": "yes", "detail": "CLIコーディングツール" },
+          { "name": "Artifacts", "status": "yes", "detail": "インタラクティブ出力" },
+          { "name": "Projects", "status": "yes", "detail": "カスタム知識ベース" }
+        ]
+      }
+    ],
+    "recentUpdates": [
+      {
+        "title": "Claude Cowork デスクトップエージェント",
+        "description": "デスクトップ上でユーザーのワークフローを自律的にサポートするエージェント機能が追加。ブラウザ操作やファイル管理を自動化。",
+        "date": "2026-02-18"
+      },
+      {
+        "title": "PPTX/XLSX/DOCX ネイティブ生成",
+        "description": "Microsoft Officeフォーマットのファイルを直接生成する機能が追加。プレゼンテーション、スプレッドシート、ドキュメントをワンステップで作成可能。",
+        "date": "2026-02-05"
+      },
+      {
+        "title": "エンタープライズプラグインマーケットプレイス",
+        "description": "企業向けにMCP準拠のプラグインマーケットプレイスが開設。Gmail、Calendar、Drive、DocuSign、FactSetなどとの連携が可能に。",
+        "date": "2026-01-25"
+      }
+    ],
+    "pricing": [
+      {
+        "tierName": "無料",
+        "price": "¥0",
+        "features": ["Sonnet 4.6利用可能", "基本的なチャット", "限定的なファイルアップロード"]
+      },
+      {
+        "tierName": "Pro",
+        "price": "$20/月",
+        "features": ["Opus 4.6アクセス", "Extended Thinking", "Claude Code", "Infinite Chats", "PPTX/XLSX/DOCX生成", "MCP連携"]
+      }
+    ]
+  },
+  {
+    "name": "ChatGPT",
+    "company": "OpenAI",
+    "flagshipModel": "GPT-5.2 Pro",
+    "fastModel": "GPT-5.2 Instant",
+    "contextWindow": "拡張メモリ",
+    "reasoningMode": "Thinking (Light/Standard/Extended)",
+    "lastUpdated": "2026-02-26",
+    "features": [
+      {
+        "category": "テキスト・推論",
+        "items": [
+          { "name": "テキスト生成", "status": "yes", "detail": "GPT-5.2 Pro" },
+          { "name": "推論モード", "status": "yes", "detail": "Thinking (3段階)" },
+          { "name": "長文コンテキスト", "status": "yes", "detail": "拡張メモリ" }
+        ]
+      },
+      {
+        "category": "マルチモーダル",
+        "items": [
+          { "name": "画像生成", "status": "yes", "detail": "DALL-E" },
+          { "name": "動画生成", "status": "yes", "detail": "Sora" },
+          { "name": "音声会話", "status": "yes", "detail": "Advanced Voice" },
+          { "name": "画像認識", "status": "yes", "detail": "GPT-4V統合" }
+        ]
+      },
+      {
+        "category": "コーディング",
+        "items": [
+          { "name": "コード生成", "status": "yes", "detail": "Codex" },
+          { "name": "コーディングエージェント", "status": "yes", "detail": "Codex", "isNew": true }
+        ]
+      },
+      {
+        "category": "ファイル生成",
+        "items": [
+          { "name": "スライド生成", "status": "partial", "detail": "Canvas経由" },
+          { "name": "ドキュメント生成", "status": "yes", "detail": "Canvas" },
+          { "name": "スプレッドシート", "status": "partial", "detail": "Code Interpreter経由" }
+        ]
+      },
+      {
+        "category": "外部連携",
+        "items": [
+          { "name": "ブラウジング", "status": "yes", "detail": "Web検索統合" },
+          { "name": "GPTs", "status": "yes", "detail": "カスタムGPT" },
+          { "name": "Connectors", "status": "yes", "detail": "Gmail/Calendar", "isNew": true }
+        ]
+      },
+      {
+        "category": "ユニーク機能",
+        "items": [
+          { "name": "Operator", "status": "yes", "detail": "自律ブラウザエージェント", "isNew": true },
+          { "name": "Prism", "status": "yes", "detail": "リサーチワークスペース", "isNew": true },
+          { "name": "ChatGPT Health", "status": "yes", "detail": "ヘルスケアAI", "isNew": true },
+          { "name": "Sora", "status": "yes", "detail": "動画生成プラットフォーム" }
+        ]
+      }
+    ],
+    "recentUpdates": [
+      {
+        "title": "Operator 正式リリース",
+        "description": "自律型ブラウザ操作エージェント「Operator」が正式リリース。ウェブ上のタスクを自動実行し、予約や購入などの複雑なワークフローに対応。",
+        "date": "2026-02-12"
+      },
+      {
+        "title": "Prism リサーチワークスペース",
+        "description": "複雑な調査・分析タスクに特化したワークスペース「Prism」が登場。複数のソースからの情報を統合し、構造化されたレポートを生成。",
+        "date": "2026-02-01"
+      },
+      {
+        "title": "ChatGPT Health",
+        "description": "ヘルスケア分野に特化したAI機能が追加。健康データの分析やフィットネスプランの提案、医療情報の要約が可能に。",
+        "date": "2026-01-15"
+      }
+    ],
+    "pricing": [
+      {
+        "tierName": "無料",
+        "price": "¥0",
+        "features": ["GPT-5.2 Instant利用可能", "基本的なチャット", "Limited画像生成"]
+      },
+      {
+        "tierName": "Go",
+        "price": "$8/月",
+        "features": ["GPT-5.2アクセス", "DALL-E画像生成", "基本Voice機能"]
+      },
+      {
+        "tierName": "Plus",
+        "price": "$20/月",
+        "features": ["GPT-5.2 Proアクセス", "全Thinkingモード", "Sora動画生成", "Advanced Voice", "GPTs作成"]
+      },
+      {
+        "tierName": "Pro",
+        "price": "$200/月",
+        "features": ["無制限アクセス", "最大優先処理", "Operator", "Prism", "全機能フルアクセス"]
+      }
+    ]
+  }
+]
